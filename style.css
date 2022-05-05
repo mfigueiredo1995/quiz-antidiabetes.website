@@ -23,7 +23,7 @@ body {
 
 #container {
   max-width: 600px;
-  padding: 15px;
+  padding: 20px;
 }
 
 .black {
@@ -45,6 +45,8 @@ body {
 
 .question p {
   margin-top: -10px;
+  text-align: center;
+  padding: 0 30px;
   font-size: 22px;
   color: #343A40;
 }
@@ -54,14 +56,15 @@ body {
 }
 
 .answer {
-  padding-top: 5px;
   padding-bottom: 20px;
   justify-content: center;  
 }
 
 .btn {
   border-radius: 10px;
-  padding: 5px 80px;
+  padding: 5px 5px;
+  width: 320px;
+  margin: 5px 5px;
   font-size: 25px;
   background-color: #A34336;
   background: -moz-linear-gradient(top, #A34336 0%, #F86653 100%);
